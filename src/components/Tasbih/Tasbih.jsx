@@ -18,10 +18,12 @@ const Tasbih = () => {
 
     return (
         <div className='tasbih'>
-            <h1>Tasbih</h1>
+           <div>
+           <h1 className='tasbih_tittle'>Tasbih</h1>
             <p>Sanoq: {count}</p>
             <button onClick={playSound}>Tasbihni bosing</button>
             <audio ref={audioRef} src="..//public/Bismillah.mp3" />
+           </div>
         </div>
     );
 };

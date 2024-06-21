@@ -1,8 +1,19 @@
 .tasbih{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     font-size: 30px;
-    
+    max-width: 1440px;
+    width: 100%;
     height: 800px;
+    margin-left: 100px;
+    background-image:url(..//..//images/Kaba.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.tasbih_tittle{
+    margin-top: 150px;
 }
     button{
         margin-top: 20px;
